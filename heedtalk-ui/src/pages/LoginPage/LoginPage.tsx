@@ -9,11 +9,13 @@ import "./LoginPage.css"
 
 const LoginPage = () => {
     const navigate = useNavigate()
+
     const login = useCallback(() => {
         console.log("loginbuttonisclicked")
         navigate("./dashboard")
     }, [])
-    return <div className="LoginPage LoginPageDesktop">
+    
+    return <div className="LoginPage LoginPageDesktop" style={{backgroundImage:`url(/assets/BACKGROUND/Bg.png)`}}>
         {/*     <div>This is login page</div>
             <button onClick={login}>Login</button> */}
             <div className="LoginPageHeader">
