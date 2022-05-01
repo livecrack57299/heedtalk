@@ -1,7 +1,7 @@
 .LoginPage{
     width: 100vw;
     height: 100vh;
-    background-image: url(http://127.0.0.1:8080/BACKGROUND/Bg.png);
+    background-image: url(../../assets/BACKGROUND/Bg.png);
 }
 .LoginPageDesktop{
     display: grid;
