@@ -1,0 +1,45 @@
+.LoginPage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(http://127.0.0.1:8080/BACKGROUND/Bg.png);
+}
+.LoginPageDesktop{
+    display: grid;
+    grid-template-rows: 10% 90%;
+
+}
+.LoginPageHeader{
+    width: 100%;
+    height: 100%;
+
+}
+.LoginPageMainContent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.LoginPageLogo{
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.LoginPagePunchLine{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.LoginPageForm{
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+}

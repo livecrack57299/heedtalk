@@ -1,0 +1,7 @@
+.Logo{
+    background-image: url(http://127.0.0.1:8080/Logo/HeedTalk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
